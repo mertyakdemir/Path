@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  aspnetcoremvc.web:
+    image: pathcaseapi
+    build:
+      context: .
+      dockerfile: PathCase/Dockerfile

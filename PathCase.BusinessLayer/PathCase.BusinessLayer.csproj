@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PathCase.DataLayer\PathCase.DataLayer.csproj" />
+    <ProjectReference Include="..\PathCase.Entities\PathCase.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
